@@ -42,3 +42,15 @@ app = QApplication(sys.argv)
 myWindow = WindowClass()
 myWindow.show()
 app.exec_()
+
+
+
+"""
+checkBox 메소드 
+text()      체크 박스의 라벨 텍스트를 반환합니다.
+setText() 	체크 박스의 라벨 텍스트를 설정합니다.
+isChecked()	체크 박스의 상태를 반환합니다. (True/False)
+checkState()체크 박스의 상태를 반환합니다. (2/1/0)
+toggle()	체크 박스의 상태를 변경합니다.
+
+"""
