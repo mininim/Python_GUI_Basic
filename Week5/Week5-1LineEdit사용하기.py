@@ -11,7 +11,6 @@ class WindowClass(QMainWindow, ui_file):
         super().__init__()
         self.setupUi(self)
         self.button1.clicked.connect(self.button_click)
-        self.lineEdit.setPlaceholderText('써봐')
     
     def button_click(self):
         global push
