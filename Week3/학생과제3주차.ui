@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QCheckBox" name="all">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>40</y>
+      <width>141</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Arial</family>
+      <pointsize>14</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>전체 동의</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="one">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>90</y>
+      <width>279</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>동의 1</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="two">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>220</y>
+      <width>279</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>동의 2</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="three">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>340</y>
+      <width>279</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>동의 3</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="b">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>480</y>
+      <width>279</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>확인</string>
+    </property>
+   </widget>
+   <widget class="QTextBrowser" name="textBrowser">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>110</y>
+      <width>561</width>
+      <height>101</height>
+     </rect>
+    </property>
+    <property name="html">
+     <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'.AppleSystemUIFont'; font-size:13pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:7px; margin-bottom:7px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#ffffff;&quot;&gt;&lt;span style=&quot; font-family:'sans-serif'; font-size:9pt; color:#202122; background-color:#ffffff;&quot;&gt;대한민국에서 가장 긴 지명은&lt;/span&gt;&lt;span style=&quot; font-family:'sans-serif'; font-size:9pt; color:#202122;&quot;&gt; &lt;/span&gt;&lt;a href=&quot;https://ko.wikipedia.org/wiki/%EC%95%88%EB%8F%8C%EC%9D%B4%EC%A7%80%EB%8F%8C%EC%9D%B4%EB%8B%A4%EB%9E%98%EB%AF%B8%ED%95%9C%EC%88%A8%EB%B0%94%EC%9A%B0&quot;&gt;&lt;span style=&quot; font-family:'sans-serif'; font-size:9pt; text-decoration: underline; color:#3366cc;&quot;&gt;안돌이지돌이다래미한숨바우&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot; font-family:'sans-serif'; font-size:9pt; color:#202122;&quot;&gt; (&lt;/span&gt;&lt;a href=&quot;https://ko.wikipedia.org/wiki/%EA%B0%95%EC%9B%90%EB%8F%84&quot;&gt;&lt;span style=&quot; font-family:'sans-serif'; font-size:9pt; text-decoration: underline; color:#3366cc;&quot;&gt;강원도&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot; font-family:'sans-serif'; font-size:9pt; color:#202122;&quot;&gt; &lt;/span&gt;&lt;a href=&quot;https://ko.wikipedia.org/wiki/%EC%A0%95%EC%84%A0%EA%B5%B0&quot;&gt;&lt;span style=&quot; font-family:'sans-serif'; font-size:9pt; text-decoration: underline; color:#3366cc;&quot;&gt;정선군&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot; font-family:'sans-serif'; font-size:9pt; color:#202122;&quot;&gt;, 13자)이며, 가장 긴 이름을 가진 학교는 &lt;/span&gt;&lt;a href=&quot;https://ko.wikipedia.org/wiki/%EC%9D%B4%ED%99%94%EC%97%AC%EC%9E%90%EB%8C%80%ED%95%99%EA%B5%90_%EC%82%AC%EB%B2%94%EB%8C%80%ED%95%99_%EB%B6%80%EC%86%8D_%EC%9D%B4%ED%99%94%C2%B7%EA%B8%88%EB%9E%80%EA%B3%A0%EB%93%B1%ED%95%99%EA%B5%90&quot;&gt;&lt;span style=&quot; font-family:'sans-serif'; font-size:9pt; text-decoration: underline; color:#3366cc;&quot;&gt;이화여자대학교 사범대학 부속 이화·금란고등학교&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot; font-family:'sans-serif'; font-size:9pt; color:#202122;&quot;&gt;(21자)이다.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:7px; margin-bottom:7px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#ffffff;&quot;&gt;&lt;span style=&quot; font-family:'sans-serif'; font-size:9pt; color:#202122; background-color:#ffffff;&quot;&gt;보물 727호인 이조순치7월20일봉교생원선교랑전해위선교랑행목능참봉자순치7년6월일(吏曹順治七月二十日奉敎生員宣敎郞田瀣爲宣敎郞行穆陵參奉者順治七年六月日)은 35자이다. 고려의&lt;/span&gt;&lt;span style=&quot; font-family:'sans-serif'; font-size:9pt; color:#202122;&quot;&gt; &lt;/span&gt;&lt;a href=&quot;https://ko.wikipedia.org/wiki/%EC%82%AC%EA%B2%BD&quot;&gt;&lt;span style=&quot; font-family:'sans-serif'; font-size:9pt; text-decoration: underline; color:#3366cc;&quot;&gt;사경&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot; font-family:'sans-serif'; font-size:9pt; color:#202122;&quot;&gt;(寫經)의 하나인 &lt;/span&gt;&lt;a href=&quot;https://ko.wikipedia.org/wiki/%EA%B0%90%EC%A7%80%EA%B8%88%EB%8B%88%EB%8C%80%EB%B0%A9%EA%B4%91%EB%B6%88%ED%99%94%EC%97%84%EA%B2%BD%EC%9E%85%EB%B6%88%EC%82%AC%EC%9D%98%ED%95%B4%ED%83%88%EA%B2%BD%EA%B3%84%EB%B3%B4%ED%98%84%ED%96%89%EC%9B%90%ED%92%88%EC%A0%95%EC%9B%90%EB%B3%B8&quot;&gt;&lt;span style=&quot; font-family:'sans-serif'; font-size:9pt; text-decoration: underline; color:#3366cc;&quot;&gt;감지금니대방광불화엄경입불사의해탈경계보현행원품정원본&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot; font-family:'sans-serif'; font-size:9pt; color:#202122;&quot;&gt;(紺紙金泥大方廣佛華嚴經入不思議解脫境界普賢行願品貞元本)은 27자이고 &lt;/span&gt;&lt;a href=&quot;https://ko.wikipedia.org/wiki/%EC%B2%9C%EC%88%98%EA%B2%BD&quot;&gt;&lt;span style=&quot; font-family:'sans-serif'; font-size:9pt; text-decoration: underline; color:#3366cc;&quot;&gt;천수경&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot; font-family:'sans-serif'; font-size:9pt; color:#202122;&quot;&gt;의 한 종류인 &lt;/span&gt;&lt;a href=&quot;https://ko.wikipedia.org/w/index.php?title=%EC%B2%9C%EC%88%98%EC%B2%9C%EC%95%88%EA%B4%80%EC%9E%90%EC%9E%AC%EB%B3%B4%EC%82%B4%EA%B4%91%EB%8C%80%EC%9B%90%EB%A7%8C%EB%AC%B4%EC%95%A0%EB%8C%80%EB%B9%84%EC%8B%AC%EB%8C%80%EB%8B%A4%EB%9D%BC%EB%8B%88%EA%B2%BD&amp;amp;action=edit&amp;amp;redlink=1&quot;&gt;&lt;span style=&quot; font-family:'sans-serif'; font-size:9pt; text-decoration: underline; color:#dd3333;&quot;&gt;천수천안관자재보살광대원만무애대비심대다라니경&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot; font-family:'sans-serif'; font-size:9pt; color:#202122;&quot;&gt;은 23자이다.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+   <widget class="QTextBrowser" name="textBrowser_2">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>240</y>
+      <width>551</width>
+      <height>91</height>
+     </rect>
+    </property>
+    <property name="documentTitle">
+     <string/>
+    </property>
+    <property name="html">
+     <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'.AppleSystemUIFont'; font-size:13pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'sans-serif'; font-size:9pt; color:#202122; background-color:#ffffff;&quot;&gt;가장 긴 철도역명은 공식역명을 기준으로 하면 &lt;/span&gt;&lt;a href=&quot;https://ko.wikipedia.org/wiki/%EB%82%A8%ED%95%9C%EC%82%B0%EC%84%B1%EC%9E%85%EA%B5%AC%EC%97%AD&quot;&gt;&lt;span style=&quot; font-family:'sans-serif'; font-size:9pt; text-decoration: underline; color:#3366cc; background-color:#ffffff;&quot;&gt;남한산성입구(성남법원·검찰청)역&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot; font-family:'sans-serif'; font-size:9pt; color:#202122; background-color:#ffffff;&quot;&gt;으로 13자, 주역명만을 놓고 보면 &lt;/span&gt;&lt;a href=&quot;https://ko.wikipedia.org/wiki/%EB%B6%80%EC%82%B0_%EB%8F%84%EC%8B%9C%EC%B2%A0%EB%8F%84_2%ED%98%B8%EC%84%A0&quot;&gt;&lt;span style=&quot; font-family:'sans-serif'; font-size:9pt; text-decoration: underline; color:#3366cc; background-color:#ffffff;&quot;&gt;부산 도시철도 2호선&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot; font-family:'sans-serif'; font-size:9pt; color:#202122; background-color:#ffffff;&quot;&gt;의 &lt;/span&gt;&lt;a href=&quot;https://ko.wikipedia.org/wiki/%EA%B5%AD%EC%A0%9C%EA%B8%88%EC%9C%B5%EC%84%BC%ED%84%B0%C2%B7%EB%B6%80%EC%82%B0%EC%9D%80%ED%96%89%EC%97%AD&quot;&gt;&lt;span style=&quot; font-family:'sans-serif'; font-size:9pt; text-decoration: underline; color:#3366cc; background-color:#ffffff;&quot;&gt;국제금융센터·부산은행역&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot; font-family:'sans-serif'; font-size:9pt; color:#202122; background-color:#ffffff;&quot;&gt;이 10자이다. &lt;/span&gt;&lt;a href=&quot;https://ko.wikipedia.org/wiki/%ED%99%98%EC%8A%B9%EC%97%AD&quot;&gt;&lt;span style=&quot; font-family:'sans-serif'; font-size:9pt; text-decoration: underline; color:#3366cc; background-color:#ffffff;&quot;&gt;환승역&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot; font-family:'sans-serif'; font-size:9pt; color:#202122; background-color:#ffffff;&quot;&gt; 중에서는 &lt;/span&gt;&lt;a href=&quot;https://ko.wikipedia.org/wiki/%EC%84%9C%EC%9A%B8_%EC%A7%80%ED%95%98%EC%B2%A0_2%ED%98%B8%EC%84%A0&quot;&gt;&lt;span style=&quot; font-family:'sans-serif'; font-size:9pt; text-decoration: underline; color:#3366cc; background-color:#ffffff;&quot;&gt;서울 지하철 2호선&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot; font-family:'sans-serif'; font-size:9pt; color:#202122; background-color:#ffffff;&quot;&gt;, &lt;/span&gt;&lt;a href=&quot;https://ko.wikipedia.org/wiki/%EC%88%98%EB%8F%84%EA%B6%8C_%EC%A0%84%EC%B2%A0_4%ED%98%B8%EC%84%A0&quot;&gt;&lt;span style=&quot; font-family:'sans-serif'; font-size:9pt; text-decoration: underline; color:#3366cc; background-color:#ffffff;&quot;&gt;수도권 전철 4호선&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot; font-family:'sans-serif'; font-size:9pt; color:#202122; background-color:#ffffff;&quot;&gt;, &lt;/span&gt;&lt;a href=&quot;https://ko.wikipedia.org/wiki/%EC%84%9C%EC%9A%B8_%EC%A7%80%ED%95%98%EC%B2%A0_5%ED%98%B8%EC%84%A0&quot;&gt;&lt;span style=&quot; font-family:'sans-serif'; font-size:9pt; text-decoration: underline; color:#3366cc; background-color:#ffffff;&quot;&gt;서울 지하철 5호선&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot; font-family:'sans-serif'; font-size:9pt; color:#202122; background-color:#ffffff;&quot;&gt;의 환승역인 &lt;/span&gt;&lt;a href=&quot;https://ko.wikipedia.org/wiki/%EB%8F%99%EB%8C%80%EB%AC%B8%EC%97%AD%EC%82%AC%EB%AC%B8%ED%99%94%EA%B3%B5%EC%9B%90%EC%97%AD&quot;&gt;&lt;span style=&quot; font-family:'sans-serif'; font-size:9pt; text-decoration: underline; color:#3366cc; background-color:#ffffff;&quot;&gt;동대문역사문화공원역&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot; font-family:'sans-serif'; font-size:9pt; color:#202122; background-color:#ffffff;&quot;&gt;이 9자이고, &lt;/span&gt;&lt;a href=&quot;https://ko.wikipedia.org/wiki/%EA%B2%BD%EC%A0%84%EC%B2%A0&quot;&gt;&lt;span style=&quot; font-family:'sans-serif'; font-size:9pt; text-decoration: underline; color:#3366cc; background-color:#ffffff;&quot;&gt;경전철&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot; font-family:'sans-serif'; font-size:9pt; color:#202122; background-color:#ffffff;&quot;&gt; 역중에서는 &lt;/span&gt;&lt;a href=&quot;https://ko.wikipedia.org/wiki/%EC%9D%98%EC%A0%95%EB%B6%80_%EA%B2%BD%EC%A0%84%EC%B2%A0&quot;&gt;&lt;span style=&quot; font-family:'sans-serif'; font-size:9pt; text-decoration: underline; color:#3366cc; background-color:#ffffff;&quot;&gt;의정부 경전철&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot; font-family:'sans-serif'; font-size:9pt; color:#202122; background-color:#ffffff;&quot;&gt;의 &lt;/span&gt;&lt;a href=&quot;https://ko.wikipedia.org/wiki/%EA%B2%BD%EA%B8%B0%EB%8F%84%EC%B2%AD%EB%B6%81%EB%B6%80%EC%B2%AD%EC%82%AC%EC%97%AD&quot;&gt;&lt;span style=&quot; font-family:'sans-serif'; font-size:9pt; text-decoration: underline; color:#3366cc; background-color:#ffffff;&quot;&gt;경기도청북부청사역&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot; font-family:'sans-serif'; font-size:9pt; color:#202122; background-color:#ffffff;&quot;&gt;이 8자이다.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+   <widget class="QTextBrowser" name="textBrowser_3">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>360</y>
+      <width>561</width>
+      <height>101</height>
+     </rect>
+    </property>
+    <property name="html">
+     <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'.AppleSystemUIFont'; font-size:13pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:7px; margin-bottom:7px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#ffffff;&quot;&gt;&lt;a href=&quot;https://ko.wikipedia.org/wiki/%EA%B3%A0%EC%A2%85%EC%8B%A4%EB%A1%9D&quot;&gt;&lt;span style=&quot; font-family:'sans-serif'; font-size:9pt; text-decoration: underline; color:#3366cc;&quot;&gt;고종실록&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot; font-family:'sans-serif'; font-size:9pt; color:#202122;&quot;&gt;의 원래 이름은 고종순천융운조극돈륜정성광의명공대덕요준순휘우모탕경응명입기지화신열외훈홍업계기선력건행곤정영의홍휴수강문헌무장인익정효태황제실록(高宗純天隆運肇極敦倫正聖光義明功大德堯峻舜徽禹謨湯敬應命立紀至化神烈巍勳洪業啓基宣曆乾行坤定英毅弘休壽康文憲武章仁翼貞孝太皇帝實錄)으로 65자이다.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:7px; margin-bottom:7px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#ffffff;&quot;&gt;&lt;a href=&quot;https://ko.wikipedia.org/wiki/%EC%A1%B0%EC%84%A0_%EC%88%9C%EC%A1%B0&quot;&gt;&lt;span style=&quot; font-family:'sans-serif'; font-size:9pt; text-decoration: underline; color:#3366cc;&quot;&gt;조선 순조&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot; font-family:'sans-serif'; font-size:9pt; color:#202122;&quot;&gt;의 원래 시호는 순조선각연덕현도경인순희체성응명흠광석경계천배극융원돈휴의행소윤희화준렬대중지정홍훈철모건시태형창운홍기고명박후강건수정계통수력공유범문안무정영경성효대왕(純祖宣恪淵德顯道景仁純禧體聖凝命欽光錫慶繼天配極隆元敦休懿行昭倫熙化浚烈大中至正洪勳哲謨乾始泰亨昌運弘基高明博厚剛健粹精啓統垂曆功裕範文安武靖英敬成孝大王)으로 77자이다.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:7px; margin-bottom:7px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#ffffff;&quot;&gt;&lt;span style=&quot; font-family:'sans-serif'; font-size:9pt; color:#202122; background-color:#ffffff;&quot;&gt;추존왕인&lt;/span&gt;&lt;span style=&quot; font-family:'sans-serif'; font-size:9pt; color:#202122;&quot;&gt; &lt;/span&gt;&lt;a href=&quot;https://ko.wikipedia.org/wiki/%EC%A1%B0%EC%84%A0_%EB%AC%B8%EC%A1%B0&quot;&gt;&lt;span style=&quot; font-family:'sans-serif'; font-size:9pt; text-decoration: underline; color:#3366cc;&quot;&gt;조선 문조&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot; font-family:'sans-serif'; font-size:9pt; color:#202122;&quot;&gt;의 시호는 이보다도 더 길다. 문조체원찬화석극정명성헌영철예성연경융덕순공독휴홍경홍운성렬선광준상요흠순공우근탕정계천건통신훈숙모건대곤후광업영조장의창륜행건배녕기태수유희범창희입경형도성헌소장굉유신휘수서우복돈문현무인의효명익황제(文祖體元贊化錫極定命聖憲英哲睿誠淵敬隆德純功篤休弘慶洪運盛烈宣光濬祥堯欽舜恭禹勤湯正啓天建通神勳肅謨乾大坤厚廣業永祚莊義彰倫行健配寧基泰垂裕熙範昌禧立經亨道成獻昭章宏猷愼徽綏緖佑福敦文顯武仁懿孝明翼皇帝)로, 총 101자이다.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="y">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>30</y>
+      <width>76</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>연도</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>2020</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>2019</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>2018</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>2017</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QComboBox" name="m">
+    <property name="geometry">
+     <rect>
+      <x>110</x>
+      <y>30</y>
+      <width>76</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>월</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>1</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>2</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>3</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>4</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QComboBox" name="d">
+    <property name="geometry">
+     <rect>
+      <x>190</x>
+      <y>30</y>
+      <width>76</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>일</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>10</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>20</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>30</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>40</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>10</y>
+      <width>56</width>
+      <height>12</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>생년월일</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>24</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

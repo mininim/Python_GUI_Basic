@@ -50,8 +50,10 @@ class WindowClass(QMainWindow, ui_file):
     def register(self):
         if self.checkBox1.isChecked() and self.checkBox2.isChecked() and self.checkBox3.isChecked():
             print("가입성공")
+            self.label.setText("가입 성공")
         else : 
             print("개인정보 취급 동의 내용 확인")
+            self.label.setText("개인정보 취급 동의 내용 확인")
 
 app = QApplication(sys.argv)
 myWindow = WindowClass()
